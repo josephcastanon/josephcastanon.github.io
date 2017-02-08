@@ -1,0 +1,25 @@
+h1 {
+  color: #338E6A;
+}
+
+@font-face {
+  src:url("Quicksand_Bold.otf");
+  font-family: "nestlequick";
+}
+
+h1 {
+  font-family: "nestlequick", sans-serif;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 10%;
+}
+
+h2 {
+  color: #0C3223;
+}
+
+h2 {
+  font-family: "nestlequick", sans-serif;
+  font-weight: lighter;
+  line-height: 10%;
+}
