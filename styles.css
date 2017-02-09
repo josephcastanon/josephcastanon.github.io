@@ -23,3 +23,17 @@ h2 {
   font-weight: lighter;
   line-height: 10%;
 }
+
+h3 {
+  font-family: "nestlequick", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 10%;
+  color: #943D3D;
+}
+
+p {
+  font-family: "nestlequick", sans-serif;
+  font-weight: lighter;
+  line-height: 100%;
+}
