@@ -39,6 +39,19 @@ h3 {
   font-size: 24px;
   line-height: 10%;
   color: #943D3D;
+  margin-top: 40px;
+}
+
+h4 {
+  font-family: "DIN", sans-serif;
+  font-size: 24px;
+  line-height: 10%;
+  color: #943D3D;
+  margin-top: 40px;
+}
+
+#fctlink a:hover {
+  text-decoration: none;
 }
 
 p {
