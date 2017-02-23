@@ -1,0 +1,199 @@
+@font-face {
+  src:url("LICENSE.ttf");
+  font-family: "License";
+}
+
+@font-face {
+  src:url("Memphis.ttf");
+  font-family: "Memphis";
+}
+
+h1 {
+  color: #000000;
+  font-family: "License", sans-serif;
+  font-size: 70px;
+  line-height: 150%;
+  text-align: center;
+  margin-top: 40px;
+  letter-spacing: 8px;
+  border: 15px dotted #;
+  background-color: rgba(231, 233, 64, 1);
+}
+
+
+.links {
+  color: #FEFEFE;
+  font-family: "Memphis", sans-serif;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 8px;
+  text-align: center;
+  margin-top: -40px;
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+h2 {
+  color: #000000;
+  font-family: "License", sans-serif;
+  font-size: 30px;
+  line-height: 80%;
+  text-align: center;
+  margin-top: 50px;
+  letter-spacing: 10px;
+}
+
+div.airbud {
+  color: #FEFEFE;
+  font-family: "License", sans-serif;
+  line-height: 40%;
+  text-align: left;
+  margin-top: 0px;
+}
+
+h3 {
+font-family: "License", sans-serif;
+font-size: 30px;
+line-height: 120%;
+text-align: center;
+margin-top: 20px;
+color: #CD2C2C;
+}
+
+p.description {
+  color: #FFFFFF;
+  font-family: "Memphis", sans-serif;
+  font-size: 15px;
+  line-height: 110%;
+  text-align: center;
+  margin-top: -10px;
+  color: #000000;
+}
+
+p.year{
+  color: #000000;
+  font-family: "Memphis", sans-serif;
+  font-size: 20px;
+  line-height: 110%;
+  text-align: center;
+  margin-top: -25px;
+  color: #000000;
+}
+
+div.airbud {
+    width:25%;
+    margin: left;
+    border: 10px dotted #E7E940;
+    position: absolute;
+    left: 10px;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+div.airbudgolden {
+    width:40%;
+    margin: center;
+    border: 10px dotted #E7E940;
+    position: absolute;
+    left: 29%;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+div.airbudworldpup {
+  width:25%;
+  margin: right;
+  border: 10px dotted #E7E940;
+  position: absolute;
+  right: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+div.airbudseventh {
+  width: 40%;
+  margin: left;
+  border: 10px dotted #E7E940;
+  position: absolute;
+  right: 80px;
+  margin-top: 160px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+div.airbudspikes {
+  width: 40%;
+  margin: left;
+  border: 10px dotted #E7E940;
+  position: absolute;
+  left: 80px;
+  margin-top: 200px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+div.titlesr1 {
+  display: inline-block;
+}
+
+#address {
+  color: #000000;
+  font-family: "Memphis", sans-serif;
+  font-size: 20px;
+  line-height: 120%;
+  margin-top: 510px;
+  position: absolute;
+  text-align: center;
+  right: 700px;
+  width: 20%;
+}
+
+h4 {
+color: #000000;
+font-family: "License", sans-serif;
+font-size: 40px;
+line-height: 120%;
+text-align: center;
+margin-top: 400px;
+position: absolute;
+width: 80%;
+right: 140px;
+}
+
+#time {
+  color: #000000;
+  font-family: "Memphis", sans-serif;
+  font-size: 20px;
+  line-height: 120%;
+  margin-top: 510px;
+  position: absolute;
+  text-align: center;
+  right: 375px;
+  width: 20%;
+}
+
+h6 {
+color: #000000;
+font-family: "License", sans-serif;
+font-size: 30px;
+line-height: 290%;
+text-align: right;
+margin-top: -50px;
+position: absolute;
+right: 100px;
+color: #CD2C2C;
+}
+
+h5 {
+color: #000000;
+font-family: "License", sans-serif;
+font-size: 30px;
+line-height: 290%;
+text-align: center;
+margin-top: -50px;
+position: absolute;
+right: 70px;
+color: #CD2C2C;
+}
+
+a {
+  color: black;
+}
+
+a:hover { text-decoration: none; color:red; } }
