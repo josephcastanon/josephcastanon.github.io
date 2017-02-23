@@ -51,3 +51,7 @@ p {
   font-weight: 200;
   line-height: 120%;
 }
+
+#filmfestival a:hover {
+  text-decoration: none;
+}
