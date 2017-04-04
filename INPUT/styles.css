@@ -1,0 +1,520 @@
+body {
+    background-color: #000000;
+}
+
+
+@font-face {
+    src:url("LSTKGarPenTin.otf");
+    font-family: "Title";
+  }
+
+@font-face {
+    src:url("GrotesqueMTStd-ExtraCond.otf");
+    font-family: "Body";
+  }
+
+h1 {
+    color: #000000;
+    font-family: "Body", sans-serif;
+    font-size: 140px;
+    line-height: 100%;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+  }
+
+  h2 {
+      color: #000000;
+      font-family: "Body", sans-serif;
+      font-size: 360px;
+      line-height: 100%;
+      letter-spacing: 1px;
+      text-align: center;
+      margin-top: -100px;
+      color: white;
+    }
+
+    h3 {
+        color: #000000;
+        font-family: "Body", sans-serif;
+        font-size: 50px;
+        line-height: 100%;
+        letter-spacing: 1px;
+        word-spacing: 3px;
+        text-align: center;
+        margin-top: -300px;
+        color: white;
+      }
+
+h2:hover {
+  color: red;
+}
+
+
+h4 {
+  color: #000000;
+  font-family: "Body", sans-serif;
+  font-size: 150px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+a {
+  text-decoration: none;
+}
+#amanda {
+        text-align: left;
+        margin-top: -800px;
+        margin-left: 200px;
+        color: white;
+        display: block;
+      }
+
+.img1 {
+  display: block;
+  margin-left: auto;
+  margin-right: 50px;
+  margin-top: 150px;
+}
+
+.img2 {
+  display: block;
+  margin-right: auto;
+  margin-left: 50px;
+  margin-top: 400px;
+}
+
+.img3 {
+  display: block;
+  margin-left: auto;
+  margin-top: 350px;
+}
+
+.img4 {
+  display: block;
+  margin-right: : auto;
+  margin-top: 300px;
+}
+
+.img5 {
+  display: block;
+  margin-left: auto;
+  margin-right: 50px;
+  margin-top: 250px;
+}
+
+.img6 {
+  display: block;
+  margin-right: : auto;
+  margin-top: 250px;
+  margin-left: 50px;
+}
+
+.img7 {
+  display: block;
+  margin-left: auto;
+  margin-right: 50px;
+  margin-top: 250px;
+}
+
+.img8 {
+  display: block;
+  margin-right: : auto;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+
+.img9 {
+  display: block;
+  margin-left: auto;
+  margin-right: 50px;
+  margin-top: 250px;
+}
+
+.img10 {
+  display: block;
+  margin-right: : auto;
+  margin-left: 50px;
+  margin-top: 250px;
+}
+
+.img11 {
+  display: block;
+  margin-left: auto;
+  margin-right: 50px;
+  margin-top: 250px;
+}
+
+#amandadiv {
+        background-color: red;
+        padding: 10px;
+        color: #000000;
+        font-family: "Body", sans-serif;
+        font-size: 50px;
+        line-height: 0%;
+        letter-spacing: 1px;
+        word-spacing: 3px;
+        text-align: left;
+        margin-top: -200px;
+        margin-right: 290px;
+          margin-left: 50px;
+        color: white;
+      }
+
+#amanda:hover {
+  color: lightyellow;
+}
+
+#amandadiv:hover {
+  display: block;
+}
+
+#archie {
+        text-align: right;
+        margin-top: -550px;
+        margin-right: 250px;
+        color: white;
+        display: block;
+      }
+
+#archiediv {
+              background-color: #2A90E5;
+              padding: 10px;
+              color: #000000;
+              font-family: "Body", sans-serif;
+              font-size: 50px;
+              line-height: 0%;
+              letter-spacing: 1px;
+              word-spacing: 3px;
+              text-align: left;
+              margin-top: -200px;
+              margin-right: : -300px;
+              margin-left: 800px;
+              color: white;
+            }
+
+#archie:hover {
+  color: #E93EF4;
+}
+
+#archie:hover + #archiediv {
+  display:block;
+}
+
+#ellory {
+  text-align: left;
+  margin-top: -700px;
+  margin-left: 500px;
+  color: white;
+  display: block;
+}
+
+#celerydiv {
+  background-color: #AB64B5;
+  padding: 10px;
+  color: #000000;
+  font-family: "Body", sans-serif;
+  font-size: 50px;
+  line-height: 0%;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  text-align: left;
+  margin-top: -200px;
+  margin-left: 250px;
+  color: white;
+}
+
+#ellory:hover {
+  color: #ABE551;
+}
+
+#ellory:hover + #celerydiv {
+  display:block;
+}
+
+#eggz {
+        text-align: right;
+        margin-top: -600px;
+        margin-right: 250px;
+        color: white;
+        display: block;
+      }
+
+#eggzdiv {
+              background-color: #21A6AA;
+              padding: 10px;
+              color: #000000;
+              font-family: "Body", sans-serif;
+              font-size: 50px;
+              line-height: 0%;
+              letter-spacing: 1px;
+              word-spacing: 3px;
+              text-align: left;
+              margin-top: -200px;
+              margin-right: : -300px;
+              margin-left: 800px;
+              color: white;
+            }
+
+#eggz:hover {
+  color: #FA357C;
+}
+
+#eggz:hover + #eggzdiv {
+  display:block;
+}
+
+#jo {
+  text-align: left;
+  margin-top: -700px;
+  margin-left: 500px;
+  color: white;
+  display: block;
+}
+
+#jodiv {
+  background-color: #FF7312;
+  padding: 10px;
+  color: #000000;
+  font-family: "Body", sans-serif;
+  font-size: 50px;
+  line-height: 0%;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  text-align: left;
+  margin-top: -200px;
+  margin-left: 300px;
+  color: white;
+}
+
+#jo:hover {
+  color: #C6131E;
+}
+
+#jo:hover + #jodiv {
+  display:block;
+}
+
+#josh {
+    text-align: left;
+    margin-top: -600px;
+    margin-left: 650px;
+    color: white;
+    display: block;
+  }
+
+  #joshdiv {
+    background-color: #7807B9;
+    padding: 10px;
+    color: #000000;
+    font-family: "Body", sans-serif;
+    font-size: 50px;
+    line-height: 0%;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align: left;
+    margin-top: -200px;
+    margin-left: 800px;
+    color: white;
+  }
+
+  #josh:hover {
+    color: #12A9BD;
+  }
+
+  #josh:hover + #jodiv {
+    display:block;
+  }
+
+  #maggie {
+      text-align: left;
+      margin-top: -600px;
+      margin-left: 50px;
+      color: white;
+      display: block;
+    }
+
+    #maggiediv {
+      background-color: #840519;
+      padding: 10px;
+      color: #000000;
+      font-family: "Body", sans-serif;
+      font-size: 50px;
+      line-height: 0%;
+      letter-spacing: 1px;
+      word-spacing: 3px;
+      text-align: left;
+      margin-top: -200px;
+      margin-left: 200px;
+      color: white;
+    }
+
+    #maggie:hover {
+      color: #DC89E3;
+    }
+
+    #maggie:hover + #jodiv {
+      display:block;
+    }
+
+    #mint {
+        text-align: left;
+        margin-top: -600px;
+        margin-left: 650px;
+        color: white;
+        display: block;
+      }
+
+      #mintdiv {
+        background-color: #FF529E;
+        padding: 10px;
+        color: #000000;
+        font-family: "Body", sans-serif;
+        font-size: 50px;
+        line-height: 0%;
+        letter-spacing: 1px;
+        word-spacing: 3px;
+        text-align: left;
+        margin-top: -200px;
+        margin-left: 800px;
+        color: white;
+      }
+
+      #mint:hover {
+        color: #A5F8E5;
+      }
+
+      #mint:hover + #mintdiv {
+        display:block;
+      }
+
+      #nay {
+          text-align: left;
+          margin-top: -600px;
+          margin-left: 100px;
+          color: white;
+          display: block;
+        }
+
+        #naydiv {
+          background-color: #E4D118;
+          padding: 10px;
+          color: #000000;
+          font-family: "Body", sans-serif;
+          font-size: 50px;
+          line-height: 0%;
+          letter-spacing: 1px;
+          word-spacing: 3px;
+          text-align: left;
+          margin-top: -200px;
+          margin-left: 200px;
+          color: white;
+        }
+
+        #nay:hover {
+          color: #BB2A30;
+        }
+
+        #nay:hover + #naydiv {
+          display:block;
+        }
+
+        #alec {
+            text-align: left;
+            margin-top: -500px;
+            margin-left: 700px;
+            color: white;
+            display: block;
+          }
+
+          #alecdiv {
+            background-color: #FC6FAD;
+            padding: 10px;
+            color: #000000;
+            font-family: "Body", sans-serif;
+            font-size: 50px;
+            line-height: 0%;
+            letter-spacing: 1px;
+            word-spacing: 3px;
+            text-align: left;
+            margin-top: -200px;
+            margin-left: 900px;
+            color: white;
+          }
+
+          #alec:hover {
+            color: #5EAAEA;
+          }
+
+          #alec:hover + #alecdiv {
+            display:block;
+          }
+
+          #pissy {
+              text-align: left;
+              margin-top: -600px;
+              margin-left: 100px;
+              color: white;
+              display: block;
+            }
+
+            #pissydiv {
+              background-color: #417FB2;
+              padding: 10px;
+              color: #000000;
+              font-family: "Body", sans-serif;
+              font-size: 50px;
+              line-height: 0%;
+              letter-spacing: 1px;
+              word-spacing: 3px;
+              text-align: left;
+              margin-top: -200px;
+              margin-left: 200px;
+              color: white;
+            }
+
+            #pissy:hover {
+              color: #BB2A30;
+            }
+
+            #pissy:hover + #pissydiv {
+              display:block;
+            }
+
+  #gotham {
+    text-align: center;
+    font-size: 350px;
+    margin-top: 500px;
+    margin-left: 0px;
+    color: white;
+    display: block;
+  }
+
+  #gotham2 {
+    text-align:center;
+    margin-top: -500px;
+  }
+
+  #gotham:hover {
+    color: red;
+  }
+
+#button {
+  background-color: #000000;
+  border-style: solid;
+  border-width: 10px;
+  color: white;
+  padding: 40px 100px;
+  display: block;
+  margin-left: 530px;
+  margin-top: -0px;
+  cursor: pointer;
+  font-family: "Body", sans-serif;
+  font-size: 50px;
+  line-height: 0%;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  text-align: center;
+  color: white;
+}
