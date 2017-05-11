@@ -164,7 +164,7 @@ var artists = [
     {
       "Name": "JUSTIN ANGEL",
       "Location": "BROOKYLN, NY",
-      "img": "assets/images/Justin2.jpg",
+      "img": "assets/images/Justin3.jpg",
       "Link": "index22.html",
     },
 
