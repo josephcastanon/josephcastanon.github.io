@@ -200,4 +200,5 @@ var artists = [
       "Link": "index26.html",
     },
 
+  // ARTIST 26 //
 ];
