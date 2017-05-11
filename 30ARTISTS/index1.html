@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+    <head>
+      <title>THE KIDS PROJECT</title>
+        <script src="underscore-min.js"></script>
+        <script src="collection.js"></script>
+        <link href="styles1.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+
+      <div class="header">
+        <img src="assets/images/TKP1.gif" alt="TheKidsProject" style="width:1204px;height:autopx;">
+      </div>
+
+            <div id="controls">
+              <label class="dropdown">SORT</label>
+                <!-- <label>SORT</label> -->
+
+                <select id="sort">
+                  <!-- <option>None</option> -->
+                    <option>Name</option>
+                    <option>Location</option>
+                </select>
+
+            </div>
+
+
+
+        <div id="holder">
+        </div>
+
+        <script>
+            var holder = document.getElementById("holder");
+            var sort = "Name";
+
+            function emptyHolder() {
+                holder.innerHTML = "";
+            }
+
+            function renderArray(arr) {
+                for (var i = 0; i < arr.length; i++) {
+                    var item = arr[i];
+
+                    var Linkbox = document.createElement("a");
+                    Linkbox.href = item.Link;
+                    Linkbox.target = "_blank";
+
+                    var newElement = document.createElement("div");
+                    newElement.innerHTML = "<h1>" + item.Name + "</h1>" + "<h2>" + item.Location + "</h2>"+ "<img class='artistimg' src='" + item.img + "'>";
+
+                    Linkbox.appendChild(newElement);
+                    holder.appendChild(Linkbox);
+                }
+            }
+
+            function update() {
+                console.log(sort);
+
+
+
+                // if (sort == "None") {
+                //   emptyHolder();
+                // }
+                //
+                // else {
+
+                  var sorted = _.sortBy(artists, function(p) {
+
+                       if (sort == "Location") {
+                          return p.Location;
+                      }
+                        else if (sort == "Name") {
+                          return p.Name;
+                        }
+                  });
+
+                  emptyHolder();
+                  renderArray(sorted);
+                }
+
+
+            document.getElementById("sort").addEventListener("change", function(e) {
+                sort = e.target.value;
+                update();
+            });
+
+            window.addEventListener("load", function(e) {
+              var sorter = document.getElementById("sort")
+              sort = sorter.value;
+              console.log(sorter);
+              update();
+            });
+
+        </script>
+    </body>
+</html>

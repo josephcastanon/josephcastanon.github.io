@@ -1,0 +1,186 @@
+@font-face {
+  src:url("assets/fonts/ITCAvantGardeStd-Bold.otf");
+  font-family: "ITCBold";
+}
+
+@font-face {
+  src:url("assets/fonts/ITCAvantGardeStd-Md.otf");
+  font-family: "ITCmd";
+}
+
+@font-face {
+  src:url("assets/fonts/ITCAvantGardeStd-BkObl.otf");
+  font-family: "ITCBkObl";
+}
+
+body {
+  background-color: #ECF5F3;
+}
+
+#interview {
+  width: 800px;
+  margin:0 auto;
+  text-align: left;
+  padding-right: 200px;
+}
+
+h1 {
+  font-family: "ITCBold", sans-serif;
+  font-weight: bold;
+  font-size: 250px;
+  line-height: 80%;
+  text-align: center;
+  margin-top: 70px;
+  color: #000000;
+}
+
+h1.maggie {
+  font-size: 170px;
+}
+
+h1.bronwen {
+  font-size: 200px;
+  line-height: 120%;
+}
+
+h1.nay {
+  font-size: 200px;
+}
+h2 {
+  color: #000000;
+  font-family: "ITCBkObl", sans-serif;
+  font-size: 25px;
+  line-height: 10%;
+  text-align: center;
+  margin-top: -160px;
+}
+
+h3 {
+  color: #000000;
+  font-family: "ITCBold", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 140%;
+  margin-top: 40px;
+  text-align: left;
+}
+
+p {
+  color: #000000;
+  font-family: "ITCmd", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  margin-top: -10px;
+  text-align: left;
+}
+
+.img1 {
+  float: right;
+  padding: 0 100px 0px 0;
+  margin-right: 20px;
+  margin-top: 0px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+h1.celery:hover {
+  color: #E560DD;
+}
+
+h1.alec:hover {
+  color: #1BC4D5;
+}
+
+h1.pissy:hover {
+  color: #A21010;
+}
+
+h1.lux:hover {
+  color: #FFD502;
+}
+
+h1.malestia:hover {
+  color: #1FAB76;
+}
+
+h1.pauli:hover {
+  color: #F07AE5;
+}
+
+h1.chimera:hover {
+  color: #F51111;
+}
+
+h1.linux:hover {
+  color: #FFB4DE;
+}
+
+h1.joe:hover {
+  color: #63DE4A;
+}
+
+h1.kayvon:hover {
+  color: #D0C76F;
+}
+
+h1.maggie:hover {
+  color: #C246C2;
+}
+
+h1.tyga:hover {
+  color: #7712A4;
+}
+
+h1.jupiter:hover {
+  color: #FFFFFF;
+}
+
+
+h1.bronwen:hover {
+  color: #C6F962;
+}
+
+h1.nay:hover {
+  color: #FFF001;
+}
+
+h1.jo:hover {
+  color: #9E2F2F;
+}
+
+h1.ada:hover {
+  color: #D38CFF;
+}
+
+h1.borden:hover {
+  color: #61AF57;
+}
+
+h1.muffy:hover {
+  color: #FC2D6F;
+}
+
+h1.justin:hover {
+  color: #2CD0E3;
+}
+
+h1.eggz:hover {
+  color: #FF266E;
+}
+
+h1.josh:hover {
+  color: #23AAF3;
+}
+
+h1.heather:hover {
+  color: #FF5EF3;
+}
+
+h1.jacob:hover {
+  color: #DC95FF;
+}

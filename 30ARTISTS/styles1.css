@@ -1,0 +1,127 @@
+@font-face {
+  src:url("assets/fonts/ITCAvantGardeStd-Bold.otf");
+  font-family: "ITCBold";
+}
+
+@font-face {
+  src:url("assets/fonts/ITCAvantGardeStd-Md.otf");
+  font-family: "ITCmd";
+}
+
+@font-face {
+  src:url("assets/fonts/ITCAvantGardeStd-BkObl.otf");
+  font-family: "ITCBkObl";
+}
+
+body {
+  background-color: #ECF5F3;
+}
+
+.header {
+  margin: auto;
+    width: 80%;
+    border: 0px
+    padding: 0px;
+    margin-top: -450px;
+}
+
+.dropdown {
+    background-color: transparent;
+    color: black;
+    padding: 12px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 25px;
+    border-width: medium;
+    border-style: solid;
+    font-family: "ITCmd", sans-serif;
+}
+
+.dropdown:hover {
+      color: #FF8129;
+}
+
+h1 {
+  font-family: "ITCmd", sans-serif;
+  font-size: 30px;
+  line-height: 100%;
+  text-align: center;
+  margin-top: 50px;
+  color: #000000;
+}
+
+h2 {
+  font-family: "ITCBkObl", sans-serif;
+  font-size: 15px;
+  line-height: 100%;
+  text-align: center;
+  margin-top: -10px;
+  color: #000000;
+}
+
+h3 {
+  font-family: "ITCmd", sans-serif;
+  font-size: 140px;
+  line-height: 100%;
+  text-align: center;
+  margin-top: 50px;
+  color: #000000;
+}
+
+.artistimg {
+  width: 300px;
+  height: auto;
+  margin-left: 20px;
+}
+
+#holder {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+#sort {
+    display: block;
+    background-color: transparent;
+    min-width: 100px;
+    z-index: 2;
+    padding-top: 0px;
+    text-align: center;
+    margin-left: 690px;
+    margin-top: 28px;
+}
+
+#sort:hover {
+  display:block;
+}
+
+
+#controls:hover #sort {
+    /*display: block;*/
+    text-align: center;
+    color: #FF8129;
+    padding: 0px 0px;
+    text-decoration: none;
+    font-family: "ITCmd", sans-serif;
+}
+
+h1:hover {
+  color: #8BC4A3;
+}
+
+#controls {
+  font-family: "ITCmd", sans-serif;
+  font-size: 20px;
+  line-height: 100%;
+  margin-top: -60px;
+  margin-left: 0px;
+  display: block;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3:hover {
+  color: #E7123F;
+}

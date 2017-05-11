@@ -1,0 +1,74 @@
+@font-face {
+  src:url("assets/fonts/ITCAvantGardeStd-Bold.otf");
+  font-family: "ITCBold";
+}
+
+@font-face {
+  src:url("assets/fonts/ITCAvantGardeStd-Md.otf");
+  font-family: "ITCmd";
+}
+
+@font-face {
+  src:url("assets/fonts/ITCAvantGardeStd-BkObl.otf");
+  font-family: "ITCBkObl";
+}
+
+body {
+  background-image: url('assets/images/TKP2.gif');
+  background-size: cover;
+  background-color: #ECF5F3;
+}
+
+.header {
+  margin: auto;
+    width: 80%;
+    border: 0px
+    padding: 0px;
+    margin-top: -450px;
+}
+
+h1 {
+  font-family: "ITCmd", sans-serif;
+  font-size: 40px;
+  line-height: 100%;
+  text-align: center;
+  margin-top: 80px;
+  color: #FFFFFF;
+}
+
+h1:hover {
+  color: #02B6F0;
+}
+
+h2 {
+  font-family: "ITCmd", sans-serif;
+  font-size: 40px;
+  line-height: 100%;
+  text-align: center;
+  margin-top: -50px;
+  color: #FFFFFF;
+}
+
+h2:hover {
+  color: #F01106;
+}
+
+
+h3 {
+  font-family: "ITCmd", sans-serif;
+  font-size: 40px;
+  line-height: 100%;
+  text-align: center;
+  margin-top: 80px;
+  color: #FFFFFF;
+}
+
+h3:hover {
+  color: #FFD33E;
+}
+
+
+
+a {
+  text-decoration: none;
+}
