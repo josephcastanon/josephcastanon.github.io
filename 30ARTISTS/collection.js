@@ -172,7 +172,7 @@ var artists = [
     {
       "Name": "EGGZ BENEDICT",
       "Location": "BROOKYLN, NY",
-      "img": "assets/images/Eggz2.jpg",
+      "img": "assets/images/Eggz3.jpg",
       "Link": "index23.html",
     },
 
